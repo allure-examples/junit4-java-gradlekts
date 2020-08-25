@@ -1,0 +1,91 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "fv-az120",
+    "children" : [ {
+      "name" : "4156@fv-az120.Test worker(9)",
+      "children" : [ {
+        "name" : "allureSimpleTest displayName",
+        "uid" : "14fd33864296dc6e",
+        "parentUid" : "66ce2c548e4db1e50bc5e90f7603b627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829215,
+          "stop" : 1598363829248,
+          "duration" : 33
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allureParameterizedTest[Second Name]",
+        "uid" : "e676dbc07a2d9400",
+        "parentUid" : "66ce2c548e4db1e50bc5e90f7603b627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829148,
+          "stop" : 1598363829149,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "Second Name" ]
+      }, {
+        "name" : "allureFixtureTest2",
+        "uid" : "fb0088660af48fdd",
+        "parentUid" : "66ce2c548e4db1e50bc5e90f7603b627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829180,
+          "stop" : 1598363829180,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allureFixtureTest",
+        "uid" : "5d293196a5b809fb",
+        "parentUid" : "66ce2c548e4db1e50bc5e90f7603b627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829173,
+          "stop" : 1598363829175,
+          "duration" : 2
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "allureFakeParameterizedTest",
+        "uid" : "cbe916ea1b5f431",
+        "parentUid" : "66ce2c548e4db1e50bc5e90f7603b627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829205,
+          "stop" : 1598363829206,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "fakeValue" ]
+      }, {
+        "name" : "allureParameterizedTest[First Name]",
+        "uid" : "1bf1ff31447833f8",
+        "parentUid" : "66ce2c548e4db1e50bc5e90f7603b627",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363828978,
+          "stop" : 1598363828998,
+          "duration" : 20
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "First Name" ]
+      } ],
+      "uid" : "66ce2c548e4db1e50bc5e90f7603b627"
+    } ],
+    "uid" : "3dea814cb47c2ee98ad0743c09430fde"
+  } ],
+  "name" : "timeline"
+}
