@@ -1,0 +1,158 @@
+{
+  "uid" : "bbe48fb2a84f8a20",
+  "name" : "allureFixtureTest",
+  "fullName" : "io.qameta.allure.examples.junit4.AllureFixtureTest.allureFixtureTest",
+  "historyId" : "fc6cb7e44fb1c98115b734d2e79fec7d",
+  "time" : {
+    "start" : 1601527606814,
+    "stop" : 1601527606829,
+    "duration" : 15
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside before",
+      "time" : {
+        "start" : 1601527606816,
+        "stop" : 1601527606819,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step inside allureFixtureTest",
+      "time" : {
+        "start" : 1601527606820,
+        "stop" : 1601527606820,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Step inside after",
+      "time" : {
+        "start" : 1601527606820,
+        "stop" : 1601527606820,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "io.qameta.allure.examples.junit4"
+  }, {
+    "name" : "testClass",
+    "value" : "io.qameta.allure.examples.junit4.AllureFixtureTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "allureFixtureTest"
+  }, {
+    "name" : "suite",
+    "value" : "io.qameta.allure.examples.junit4.AllureFixtureTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az67"
+  }, {
+    "name" : "thread",
+    "value" : "4857@fv-az67.Test worker(9)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "df851b47759487f7",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/4//#testresult/df851b47759487f7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349283865,
+          "stop" : 1600349283879,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "b26c03e5175d9c46",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/3//#testresult/b26c03e5175d9c46",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598365380585,
+          "stop" : 1598365380587,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "1ac16a9ae5c8a733",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/2//#testresult/1ac16a9ae5c8a733",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598364426446,
+          "stop" : 1598364426448,
+          "duration" : 2
+        }
+      }, {
+        "uid" : "5d293196a5b809fb",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/1//#testresult/5d293196a5b809fb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829173,
+          "stop" : 1598363829175,
+          "duration" : 2
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "bbe48fb2a84f8a20.json",
+  "parameterValues" : [ ]
+}

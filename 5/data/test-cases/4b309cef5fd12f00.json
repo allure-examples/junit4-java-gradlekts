@@ -1,0 +1,149 @@
+{
+  "uid" : "4b309cef5fd12f00",
+  "name" : "allureParameterizedTest[Second Name]",
+  "fullName" : "io.qameta.allure.examples.junit4.AllureParameterizedTest.allureParameterizedTest[Second Name]",
+  "historyId" : "f3c60da6e233987a17a16258c52429ff",
+  "time" : {
+    "start" : 1601527607080,
+    "stop" : 1601527607081,
+    "duration" : 1
+  },
+  "description" : "allureParameterizedTest description",
+  "descriptionHtml" : "<p>allureParameterizedTest description</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "allureParameterizedTest description",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Step inside parameterized test",
+      "time" : {
+        "start" : 1601527607080,
+        "stop" : 1601527607080,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "Test parameter: Second Name",
+      "time" : {
+        "start" : 1601527607081,
+        "stop" : 1601527607081,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "io.qameta.allure.examples.junit4"
+  }, {
+    "name" : "testClass",
+    "value" : "io.qameta.allure.examples.junit4.AllureParameterizedTest"
+  }, {
+    "name" : "testMethod",
+    "value" : "allureParameterizedTest[Second Name]"
+  }, {
+    "name" : "suite",
+    "value" : "io.qameta.allure.examples.junit4.AllureParameterizedTest"
+  }, {
+    "name" : "host",
+    "value" : "fv-az67"
+  }, {
+    "name" : "thread",
+    "value" : "4857@fv-az67.Test worker(9)"
+  }, {
+    "name" : "framework",
+    "value" : "junit4"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "testParam",
+    "value" : "Second Name"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 5,
+        "unknown" : 0,
+        "total" : 5
+      },
+      "items" : [ {
+        "uid" : "231fb9ee4ab6b6c5",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/4//#testresult/231fb9ee4ab6b6c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1600349284115,
+          "stop" : 1600349284119,
+          "duration" : 4
+        }
+      }, {
+        "uid" : "7fe91264715b4bd4",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/3//#testresult/7fe91264715b4bd4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598365380546,
+          "stop" : 1598365380547,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "6892cc3df63c9754",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/2//#testresult/6892cc3df63c9754",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598364426423,
+          "stop" : 1598364426424,
+          "duration" : 1
+        }
+      }, {
+        "uid" : "e676dbc07a2d9400",
+        "reportUrl" : "https://allure-examples.github.io/allure-junit4-gradle-kts/1//#testresult/e676dbc07a2d9400",
+        "status" : "passed",
+        "time" : {
+          "start" : 1598363829148,
+          "stop" : 1598363829149,
+          "duration" : 1
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "4b309cef5fd12f00.json",
+  "parameterValues" : [ "Second Name" ]
+}
