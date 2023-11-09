@@ -1,58 +1,54 @@
-import io.qameta.allure.gradle.AllureExtension
-
 plugins {
     java
-    maven
-    id("io.qameta.allure") version "2.8.1"
 }
 
-group "io.qameta.allure.examples"
-version 1.3
+tasks.withType(Wrapper::class) {
+    gradleVersion = "8.4"
+}
 
-val allureVersion = "2.13.6"
-val junit4Version = "4.12"
+group = "com.example.junit4"
+version = "1.0-SNAPSHOT"
+
+val allureVersion = "2.24.0"
+val aspectJVersion = "1.9.20.1"
+val kotlinVersion = "1.9.20"
+
+java {
+    toolchain {
+        languageVersion.set(JavaLanguageVersion.of(21))
+    }
+}
 
 tasks.withType(JavaCompile::class) {
-    sourceCompatibility = "${JavaVersion.VERSION_1_8}"
-    targetCompatibility = "${JavaVersion.VERSION_1_8}"
+    options.encoding = "UTF-8"
+    options.compilerArgs.add("-parameters")
 }
 
-tasks {
-    compileJava {
-        options.encoding = "UTF-8"
-    }
-    compileTestJava {
-        options.encoding = "UTF-8"
-    }
+val agent: Configuration by configurations.creating {
+    isCanBeConsumed = true
+    isCanBeResolved = true
 }
 
-configure<AllureExtension> {
-    autoconfigure = true
-    aspectjweaver = true
-    version = allureVersion
-
-    clean = true
-
-    useJUnit4 {
-        version = allureVersion
-    }
-}
-
-tasks.withType(Test::class) {
+tasks.test {
     ignoreFailures = true
-    useJUnit {
+    useJUnit()
+    jvmArgs = listOf(
+        "-javaagent:${agent.singleFile}"
+    )
+}
 
-    }
+dependencies {
+    agent("org.aspectj:aspectjweaver:$aspectJVersion")
+    
+    testImplementation(platform("io.qameta.allure:allure-bom:$allureVersion"))
+    testImplementation("io.qameta.allure:allure-junit4")
+    testImplementation("io.qameta.allure:allure-junit4-aspect")
+
+    testImplementation("junit:junit:4.13.2")
+
+    testImplementation("org.slf4j:slf4j-simple:2.0.9")
 }
 
 repositories {
     mavenCentral()
-    mavenLocal()
-}
-
-dependencies {
-    testImplementation("io.qameta.allure:allure-java-commons:$allureVersion")
-
-    testImplementation("junit:junit:$junit4Version")
-    testImplementation("org.slf4j:slf4j-simple:1.7.30")
 }
