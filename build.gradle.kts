@@ -3,7 +3,7 @@ plugins {
 }
 
 tasks.withType(Wrapper::class) {
-    gradleVersion = "8.5"
+    gradleVersion = "8.6"
 }
 
 group = "com.example.junit4"
@@ -11,7 +11,7 @@ version = "1.0-SNAPSHOT"
 
 val allureVersion = "2.25.0"
 val aspectJVersion = "1.9.21"
-val kotlinVersion = "1.9.22"
+val kotlinVersion = "1.9.23"
 
 java {
     toolchain {
@@ -46,7 +46,7 @@ dependencies {
 
     testImplementation("junit:junit:4.13.2")
 
-    testImplementation("org.slf4j:slf4j-simple:2.0.9")
+    testImplementation("org.slf4j:slf4j-simple:2.0.12")
 }
 
 repositories {
